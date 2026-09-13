@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SyntecxHubCalculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/btn_equals_text</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/display_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <!-- Standard Calculator Button Style -->
+    <style name="Widget.Calculator.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Number Button Style -->
+    <style name="Widget.Calculator.Button.Number">
+        <item name="backgroundTint">@color/btn_number_bg</item>
+        <item name="android:textColor">@color/btn_number_text</item>
+        <item name="rippleColor">#33000000</item>
+    </style>
+
+    <!-- Action / Utility Button Style (Clear, Sign, Backspace) -->
+    <style name="Widget.Calculator.Button.Action">
+        <item name="backgroundTint">@color/btn_action_bg</item>
+        <item name="android:textColor">@color/btn_action_text</item>
+        <item name="rippleColor">#33000000</item>
+    </style>
+
+    <!-- Operator Button Style (+, -, *, /) -->
+    <style name="Widget.Calculator.Button.Operator">
+        <item name="backgroundTint">@color/btn_operator_bg</item>
+        <item name="android:textColor">@color/btn_operator_text</item>
+        <item name="rippleColor">#331976D2</item>
+    </style>
+
+    <!-- Equals Button Style (=) -->
+    <style name="Widget.Calculator.Button.Equals">
+        <item name="backgroundTint">@color/btn_equals_bg</item>
+        <item name="android:textColor">@color/btn_equals_text</item>
+        <item name="rippleColor">#44FFFFFF</item>
+    </style>
+</resources>
